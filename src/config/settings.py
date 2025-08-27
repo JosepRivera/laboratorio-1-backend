@@ -130,3 +130,5 @@ ALLOWED_HOSTS = [
     'localhost',
     'laboratorio-1-backend-production.up.railway.app',
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://laboratorio-1-backend-production.up.railway.app/"]
